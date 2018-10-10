@@ -20,3 +20,10 @@ This is done by sending the Carry Out signal and the Button signal through an AN
 The system also has an ON/OFF button that uses T Flip Flops to toggle the clock pulse. 
 When the output of the flip flop is Low, the clock pulse is not sent through the system. 
 Using these flip flops does reduce the frequency of the effective clock pulse by half. 
+
+This system could be used for any sorting application. Other than package routing, 
+this system could be applied to guide parts to work areas within a manufacturing setting. 
+This system could be altered and applied to a vending machine that receives a product code 
+and counts done until the item is gone. It could be expanded to include more outputs. 
+If the scanner read more bits the demux could have more outputs and therefore more destinations. 
+Instead of having only one output for overflow, there could be overflows or specific overflows for individual outputs. 
